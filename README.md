@@ -1,8 +1,8 @@
 # mol
 
-Mol is a project intneded to simulate the interaction of molecules by determining the resulting molecules from those reactions.
+Mol is a project intended to simulate the interaction of molecules by determining the resulting molecules from those reactions.
 
-#features
+# features
 
 - currently, the plan is to define every atom through the peroidic table of elements and add their properties, this kind of information will be important later on
 
@@ -21,6 +21,6 @@ Mol is a project intneded to simulate the interaction of molecules by determinin
 
 - project will likley be written in python
 
-#instructions
+# instructions
 
 placeholder
