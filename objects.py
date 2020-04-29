@@ -27,7 +27,7 @@ class atom :
 
 class bond :
 
- bond_type = "ionic, covalent, polar, hydrogen"
+ bond_type = "ionic, covalent, polar, hydrogen, etc."
 
  def __init__(self) :
 
@@ -35,6 +35,7 @@ class molecule :
 
  atoms = []
  bonds = []
+ atomic_mass = 0.0
 
  def __init__(self) :
   
