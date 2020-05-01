@@ -3,7 +3,9 @@
 import objects
 
 def pack_atom_to_numbers(atom) :
- return 10000000 + atom.atomic_number * 100000 + atom.column * 1000 + column * 100 + atom.valence
+ return 10000000 + atom.atomic_number * 10000 + atom.column * 100 + atom.row * 10 + atom.valence
 
 
-sulfur = atom(16, 16, 3, 6)
+sulfur = objects.atom(16, 16, 3, 6)
+
+print(pack_atom_to_numbers(sulfur))
