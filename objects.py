@@ -23,13 +23,19 @@ class atom :
  valence = 1
  ionization = 0.0 # kJ/mol
 
- def __init__(self) :
+ def __init__(self, atomic_number, column, row, valence) :
+  self.atomic_number = atomic_number
+  self.column = column
+  self.row = row
+  self.valence = valence
 
 class bond :
 
  bond_type = "ionic, covalent, polar, hydrogen, etc."
+ energy = 0.0
 
  def __init__(self) :
+  return "Nil"
 
 class molecule :
 
@@ -38,4 +44,4 @@ class molecule :
  atomic_mass = 0.0
 
  def __init__(self) :
-  
+  return "Nil"
